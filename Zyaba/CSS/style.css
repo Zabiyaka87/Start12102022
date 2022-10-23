@@ -1,0 +1,15 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+  width: 700px; color:bisque;
+  ;padding: 50px;height:300px;
+  margin: 500px auto;margin-bottom: 1000px;
+}
