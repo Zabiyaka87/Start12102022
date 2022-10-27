@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color:#E5E5E5;
+}
+.important{
+    height:1324px ;
+    width:1379px ;
+    margin: auto;
+    position: relative;
+}
+.square-action{
+    border: 2px solid rgb(0, 0, 0);
+    height: 512px;
+    width: 512px;
+    background-color: black;
+    position: relative;
+    
+}
+.Vector{    
+  /* padding: 90px; */margin-top: 121px ;
+  margin-left: 101px;
+}
+.Flag{
+   margin-left:  220px;
+  margin-top: 32px;
+
+}
+.square-flag{
+    border: 2px solid rgba(255, 206, 34, 1);
+    height: 512px;
+    width: 512px;
+    position: absolute;
+    left: 429px;
+    bottom: 412px;
+   background-color: rgba(255, 206, 34, 1);
+   z-index: 1;
+}
+.square-round{
+    height: 512px;
+    width: 512px;
+    border: 1px solid  #ffff;
+    
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+   background-color: rgba(255, 206, 34, 1);
+}
+.half-flag{
+    margin: -2px;
+}
+.glyph{
+   position: relative;
+   bottom: 131px;
+   left: 55px;
+}
+.glyph-second{
+  position: relative;
+  bottom: 35px;
+  left: 55px;
+}
+.border{
+    position: relative;
+    bottom: 506px;
+    right:  2px;
+}
+ 
