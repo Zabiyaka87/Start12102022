@@ -38,32 +38,53 @@ body{
    background-color: rgba(255, 206, 34, 1);
    z-index: 1;
 }
-.square-round{
-    height: 512px;
-    width: 512px;
-    border: 1px solid  #ffff;
-    
-   position: absolute;
-   right: 10px;
-   bottom: 10px;
-   background-color: rgba(255, 206, 34, 1);
-}
-.half-flag{
-    margin: -2px;
-}
-.glyph{
+
+ .glyph{
    position: relative;
-   bottom: 131px;
-   left: 55px;
-}
-.glyph-second{
+   bottom: 134px;
+   left: 55px; 
+} 
+ .glyph-second{
   position: relative;
   bottom: 35px;
   left: 55px;
+} 
+
+.round-flag{
+    height: 512px;
+    width: 512px;
+    background-color: white;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #2137fc;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+
 }
-.border{
+.raund-border{
+    background-color: #ffce22;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 85%;
+    height: 85%;
     position: relative;
-    bottom: 506px;
-    right:  2px;
+    left: 41px;
+    top: 39px;
 }
+.half-flag{
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+.half-flag-bottom{
+    position: relative;
+    right: 32px;
+    bottom: 30px;
+}
+.glyph-second{
+  position:relative;
+  bottom: 60px;
  
+}
