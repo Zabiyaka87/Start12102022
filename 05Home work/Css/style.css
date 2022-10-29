@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    position: sticky;
+    top:0;
+    padding: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid red;
+    z-index: 2;
+    vertical-align: middle;
+
+}
+.logo{
+    float: left;
+    font-weight: 600px;
+    font-size: 27px;
+    line-height: 120%;
+    color: #000000;
+}
+.menu{
+    float: right;
+    margin: 20px 0;
+}
+.link{
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.menu li{
+    float: left;
+    margin-right: 25px;
+}
+.button{
+    float: right;
+    border: 1px solid#2203E4;
+    margin: 8px 0 0 8px;
+    background-color: #ffffff;
+    width: 96px;
+}
+.button:hover button{
+    background-color: #2203E4;
+    color: #ffffff;
+}
+button{
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 120%;
+    color: 2203E4;
+    background-color: #ffffff;
+    width: 96px;
+}
+.title{
+    float: none;
+font-weight: 900;
+
+}
+.fix{
+    border: 1px solid#2203E4;
+    width: 1115px;
+    height: 676px;
+    position: absolute;
+    right: 400px;
+    top: 125px ;
+}
+.dolor{
+    border: 1px solid#2203E4;
+    height: 188px;
+    width: 631px;
+    position: absolute;
+    top: 250px;
+
+}
+h1{
+    font-size: 47px;
+    padding-left: 2px;
+}
+p{
+    font-size: 16px;
+}
+.hors{
+    border: 1px solid #2203E4;
+    background-color: #2203E4;
+    width: 103px;
+    height: 45px;
+    position: relative;
+    left: 15px;
+    bottom: -23px;
+}
+.demo{
+    width: 120px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    bottom: -23px;
+    border: 1px solid rgba(87, 87, 87, 1);
+    
+}
+.iPhone{
+    border: 1px solid blue;
+    position: relative;
+    left: 650px;
+    bottom: 322px;
+}
+.wrapper{
+    border: 1px solid blue;
+    position: relative;
+    left: 240px;
+    top: -215px;
+}
+.text{
+    font-size: 16px;
+    text-align: center;
+}
+.Authors{
+    text-align: center;
+    font-size: 36px;
+}
+.frame{
+    border: 1px solid blue;
+    width: 1190px; 
+    height: 175px;
+    position: relative;
+    bottom: 197px;
+    right: 62px;
+    
+}
+.avatar{
+    border: 1px solid blue;
+    width: 841px;
+    height: 175px;
+}
+.info{
+    border: 1px solid blue;
+    width: 645px;
+    position: relative;
+    left: 194px;
+    bottom: 161px;
+}
+.ikon ul li{
+    display: inline-block;
+
+    
+}
+.ikon{
+    border: 1px solid blue; 
+    position: relative;
+    top: 16px;
+}
+.vector{
+    padding: 0 20px;
+}
+.non{
+font-size: 16px;
+border: 1px solid blue;
+position: relative; 
+bottom: -6px;
+}
+.info h3{ 
+    font-size: 23px;
+
+}
+.info h2{
+    font-size: 21px;
+}
+h4{
+    font-size: 14px;
+}
