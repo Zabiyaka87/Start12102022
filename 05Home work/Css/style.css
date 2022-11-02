@@ -5,11 +5,16 @@
     border: 0; 
 }
 a:hover{
+    color: rgb(10, 9, 10);
+    border-bottom: 3px solid rgb(35, 16, 206);
+    list-style:  none !important;
     text-decoration: none;
-    color: aqua;
+    
 }
 ul li{
-    list-style: none;
+    
+    text-decoration: none;
+    
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -25,550 +30,208 @@ body{
     clear: both;
 }
 .blok{
-    margin: auto;
+    position: sticky;
     width: 1512px;
-    border: 2px solid rgb(255, 255, 255);
-}
+    height: 96px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}    
 .logo{ 
     float: left;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(231, 15, 15);
     font-size: 24px;
-    position: relative;
-    left: 12px;
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
+    margin-top: 16px;
+    margin-left: 12px;
 }
 .button{
     float: right;
 }
 .buy{
-    position: relative;
+    margin: 27px 10px 0px;
     top:24px;
     right: 12px;
     text-align: center;
     color: blue;
-    height: 40px;
-    width: 120px;
+    height: 45px;
+    width: 128px;
     font-size: 20px;
-
     border: 2px solid blue;
 }
 .buy:hover{
-    background-image: url(img/Rectangle\(3\).png);
-
+    text-decoration: underline;
 }
 .menu ul li{
     float: right;
     display: inline;
     border: 2px solid rgb(255, 252, 252);
     margin: 0 15px;
-    position: relative;
-    top: 23px;
-    right: 10px;
-    
+    margin: 35.5px 20px;
+    text-decoration: none !important;
 }
 li{
-    font-style: normal;
-font-weight: 500;
-font-size: 21px;
-line-height: 120%;
-
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    background-color: #fff;
 }
 .links{
     color: rgba(0, 0, 0, 1);
     font-weight: 500;
 }
-.title{
-    border: 1px solid rgb(255, 255, 255);
-    width:1100px;
+.wrapper{
+    border: 1px solid red;
+    width: 1512px;;
+    margin: 0 auto;
+ } 
+.wiret-block{
+    border: 1px solid blue;
+    width: 1100px;
     height: 700px;
-    position:relative;
-    left: 385px;
-    
-    
+    margin: 0 auto;
 }
-.head{
-    border: 1px solid rgb(255, 255, 255);
-    width:631px;
-    height: 188px;
-    position:relative;
-    top: 256px;
-    
+.landing{
+    float:left;
+    border: 1px solid blue;
+    margin-top: 256px;
+    width: 611px;
+
 }
-h1{
+.landing h1{
     font-weight: 700;
-    font-size:47px;
-    color: rgba(0, 0, 0, 1);
-}
-p{
+    font-size: 47px;
+} 
+.landing p{
+    font-weight: 400;
     font-size: 16px;
-    color: #000000;
+    padding-bottom: 20px;
 }
-.authore{
-    border: 1px solid #ffffff;
-    background-color: #0062FF;
-    text-align: center;
+.Authors{
+    border: 2px solid blue;
     width: 94px;
     height: 39px;
+    background-color: blue;
+    color: #fff;
     font-size: 16px;
-    position: relative;
-    top: 27px;
-    font-style: normal;
-    color: #ffffff;
-
+    margin-right: 16px;
 }
-.authore:hover{
-    background-color: blueviolet;
+.Authors:hover{
+   text-decoration: underline 2px blueviolet;
+   background-color: black;
 }
-.demo{
-    border: 1px solid  #575757; 
+.Check{
+    border: 2px solid  #575757;  
     width: 135px;
     height: 39px;
-    text-align: center;
     font-size: 16px;
-    position: relative;
-    top: 27px;
-    left: 24px;
-}
-.demo:hover{
-    background-color: blueviolet;
-}
-.iPhone{
-    position: relative;
-    left: 694px;
-    bottom: 318px;
-}
-.contakt{
-    border: 1px solid rgb(255, 255, 255);
-    width: 611px;
-    text-align: center;
-    position: relative;
-    left: 603px;
     color: #575757;
+    background-color: #fff;
 }
-h2{
-    font-weight: 600;
-    font-size: 36px;
-    color:  #000000;
+.Check:hover{
+    text-decoration: underline 2px blueviolet;
 }
-.avatar{
-    border: 1px solid rgb(255, 255, 255);
+.iphone{
+    float: right;
+    border: 1px solid blue;
+    margin-top: 100px;
+    position: relative;
+    left: 50px;
+}
+.Author{
+    border: 1px solid blue;
     width: 1190px;
-    height: 175px;
+    position: absolute;
+    left: 312px;
+    top: 796px;
+}
+.promo{
+    border: 1px solid blue;
+    width: 611px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Author-block{
+    width: 1190px;
+   
+}
+.info{
+    float: left;
+    border: 1px solid blue;
+    width: 645px;
+    height: 175px; 
     position: relative;
-    left: 314px;
-}
-.foto{
-    border: 1px solid rgb(255, 255, 255);
-    width: 841px;
-    height: 185px;
-}
-.fase{
-    position: relative;
-    top: 10px;
-}
-.biografi{
-    border: 1px solid rgb(255, 255, 255);
-    width: 647px;
-    position: relative;
-    left: 195px;
-    bottom: 185px;
-}
-h3 {
-    font-weight: 600;
-    font-size: 27px;
-}
-h4{
-    font-weight: 500;
-     font-size: 21px;
-     color: #575757;
-}
-.icon{
-    border: 1px solid rgb(255, 255, 255);
-    width: 95.15px;
-    height: 0px;
-    position: relative;
-    top: 10px;
+    left: 202px;
+    bottom: 10px;
 
 }
-.vector{
-    position: relative;
-    left: 15px;
+.graphic{
+    float: right;
+    border: 1px solid blue;
+   position: relative;
+   bottom: 22px;
 }
-.tor{
-    position: relative;
-    left: 30px;
+.rectangle{
+    position: absolute;
+    left: 5px;
 }
-.colons{
-    border: 1px solid #fff;
-    width: 237px;
-    /* height: 161px; */
-    position: relative;
-    left: 740px; 
-    bottom: 148px;
+.info h3{
+    font-weight: 600;
+    font-size: 27px;
+}
+.info h4{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 11px;
+}
+.info p{
+    font-weight: 400;
+    color: #575757;
     font-size: 16px;
 }
-h5::before{
-    content: url(img/Vector\(13\).png);
-    position: relative;
-    top: 16px;
+.graphic h4{
+    font-weight: 500;
+    font-size: 21px;
+    color:  #DEA405;
 }
-h5{
+.graphic h5{
+    font-weight: 400;
+    font-size: 16px;
+    color:  #DEA405;
+    margin-bottom: 2px;
+}
+.graphic h3{
+    font-weight: 600;
     font-size: 27px;
+    color: black;
     position: relative;
     right: 18px;
-    top:  8px;
-    color: black;
+    top: 13px;
 }
-.item{
-    font-size: 14px;
-    color: #DEA405;
-    font-size: 21px;
-    font-weight: 500;
-}
-
-.colons{
-    color: #DEA405;
-    
-} 
-.intem{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    color: #DEA405;
+.graphic h3::before{
+    content: url(img/Vector\(13\).png);
     position: relative;
-    bottom: 6px;
+    right: 5px;
+    top: 10px;
 }
-.vintem{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    color: #DEA405;
-    position: relative;
-    bottom: 12px;
-}
-.tem{
-    color: #DEA405;
+.graphic h2{
     font-weight: 500;
     font-size: 21px;
+    color: #575757;
+    margin-bottom: 2px;
 }
-.ontem{
-    color: #DEA405;
-    font-weight: 500;
-    font-size: 21px;
-}
-.for{
+.icon{
     border: 1px solid blue;
-    width: 1509px;
-    height: 702px;
+    width: 120px;
     position: relative;
-    left: 195px;
-    top: 172px;
-    background-color: #0062FF;
-    
+    left: 202px;
 }
-.level{
-    border: 1px solid #0062FF;
-    width: 611px;
-    /* height: 97px; */
-    position: relative;
-    left: 407px;
-    top: 72px;
-    text-align: center;
-    color: #fff;
+.vector{
+    padding: 0 20px;
 }
-h6{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 120%;
-}
-.float-block{
-     border: 2px solid #0062FF;
-    width: 1262px;
-    height: 175px;
-    position: relative;
-    left: 113px;
-    top: 130px;
-    
-}
-.first,
-.second{
-     width: 600px;
-    padding: 15px; 
-   
-}
-.first{
-  float: left;
-  position: absolute;
-
-
-}
-.second{
-    float: right;
-   position: relative;
-   right: 50px;
-
-}
-.options{
-    border: 1px solid #0062FF;
-    width: 451px;
-    position: relative;
-    left: 156px;
-    bottom: 148px;
-    color:#fff;
-}
-.options-a{
-    border: 1px solid #0062FF;
-    width: 451px;
-    position: relative;
-    left: 156px;
-    bottom: 90px;
-    color:#fff;
-}
-.options-b{
-
-    border: 1px solid #0062FF;
-    width: 451px;
-    position: relative;
-    left:  775px;
-    bottom: 382px;
-    color:#fff;
-}
-.options-c{
-    border: 1px solid #0062FF;
-    width: 451px;
-    position: relative;
-    left:  775px;
-    bottom: 327px;
-    color:#fff;
-    font-size: 16px;
-}
- .wanet{
-    border: 1px solid gray;
-    padding: 10px 14px; 
-    width: 100px;
-    height: 40px;
-    background: #FFFFFF;
-    position: relative;
-    left: 565px;
-    bottom: 269px;
-    font-size: 16px;
-    color: blueviolet;
-    
- } 
- .wanet:hover{
-    background-color: rgb(210, 149, 218);
-    background-image: url(img/Rectangle\(3\).png);
- }
- .check{
-    border: 1px solid rgb(255, 255, 255);
-    position: relative;
-    left: 195px;
-    top:170px;
-    width: 1509px;
-    height: 702px;
- }
- .wrapper{
-    border: 1px solid rgb(255, 255, 255);
-    position: absolute;
-    width: 1103px;
-    /* height: 433px; */
-    bottom: 506px;
-    right: 200px;
-    text-align: center;
- }
- .float-box{
-    border: 1px solid rgb(255, 255, 255);
-    width: 1103px;
-    height: 296px;
-    position: absolute;
-    top: 235px;
-    left: 203px;
- }
- .rules{
-    width: 600px;
-    float: left;
-    text-align: center;
-    padding-top:20px;
-    padding-right: 6px;
-   
- }
- .fond{
-    width: 442px;
-    float: right;
-    
- }
- .rulss{
-    color: #000000;
- }
- .push{
-    position: relative;
-    left: 200px;
-    bottom: 189px;
- }
- .wrapper-jones {
-    border: 1px solid #F3F3F3;
-    width: 1509px;
-     height: 702px;
-    position: relative;
-    left: 195px;
-    top: 169px;
-    background-color:  #FFBE0B;
-   
- }
- .Opinion {
-    border: 1px solid #FFBE0B ;
-    width: 611px;
-    /* height: 93px; */
-    position: relative;
-    left: 453px;
-    top: 122px;
-    text-align: center;
- } 
- .COE{
-    border: 1px solid #F3F3F3;
-    border-radius: 12px;
-    width: 702px;
-    height: 230px;
-    position: relative;
-    left: 406px;
-    top: 167px;
-    background: #F3F3F3;
-   
-  
- }
- .COE::before{
-    content: url(img/Frame\ 39.png);
-    position: relative;
-    right: 407px;
-    bottom: 19px;
- }
- .COE::after{
-    content: url(img/Frame\ 40.png);
-    position: relative;
-    bottom: 474px;
-    left: 714px;
- }
- .David{
-    border: 1px solid #F3F3F3;
-    width: 611px;
-    /* height: 111px; */
-    position: relative;
-    bottom: 259px;
-    left: 73px;
-    
- 
-  }
-.David::before{
-    content: url(img/Frame\ 34.png);
-    position: relative;
-    left: 175px;
-    top: 37px;
-}
-.sms{
-    position: relative;
-    right: 221px;
-    top: 99px;
-
-}
-.infor{
-    border: 1px solid rgb(255, 255, 255);
-    width: 1508px;
-    height: 950px;
-    position: relative;
-    top: 168px;
-    left: 196px;
-}
-.produkt{
-    border: 1px solid rgb(255, 255, 255);
-    width: 951px;
-    height: 745px;
-    position: relative;
-    left: 257px;
-    top: 89px;
-}
-.zoom{
-    border: 1px solid rgb(255, 255, 255);
-    width: 611px;
-    position: relative;
-    left: 161px;
-    text-align: center;
-}
-.float-produ{
-    border: 1px solid rgb(255, 255, 255);
-    width: 945px;
-    height: 321px;
-    position: relative;
-    top: 110px;
-}
-.painting{
-    float: left;
-    width: 327px;
-}
-.produc h2 {
-    float: right;
-    width: 615px;
-    color: #0062FF;
-    padding-top: 30px;
-
-}
-.produc img{
-    margin-top: 62px;
-}
-.cart{
+.students{
     border: 1px solid blue;
-    width: 122px;
-    height: 39px;
-    background-color: #0062FF;
-    text-align: center;
+    width:  1509px;
+    margin: auto;
 }
-.fox{
-    border: 1px solid blue;
-    background-color: #0062FF;
-    color:#fff;
-    width: 122px;
-    height: 39px;
-    position: relative;
-    top: 20px;
-    font-size: 16px;
-
-}
-.fox:hover{
-    background-color: #FFBE0B;
-}
-.frame {
-    border: 1px solid rgb(255, 255, 255);
-    width: 508px;
-    height: 183px;
-    position: absolute;
-    left: 220px;
-    top: 343px;
-    text-align: center;
-  }
-    .blank{
-        border: 3px solid rgb(140, 140, 250);
-        width: 508px;
-        height: 70px;
-        border-radius: 12px;
-        color: #070aa3;
-        text-align: left;
-        padding-left: 20px;
-        position: relative;
-        top: 20px;
-        font-size: 16px;
-      
-    }
-    .discount{
-        border: 1px solid blue;
-        width: 508px;
-        height: 39px;
-        background-color: blue;
-        color: #fff;
-        position: relative;
-        top: 32px;
-        font-size: 16px;
-       
-    }
-    .discount:hover{
-        background-color: #110c0cb2;
-    }
