@@ -38,7 +38,7 @@ body{
 }    
 .logo{ 
     float: left;
-    border: 2px solid rgb(231, 15, 15);
+    border: 2px solid rgb(255, 255, 255);
     font-size: 24px;
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
@@ -60,7 +60,7 @@ body{
     border: 2px solid blue;
 }
 .buy:hover{
-    text-decoration: underline;
+    text-decoration: underline 3px;
 }
 .menu ul li{
     float: right;
@@ -81,19 +81,20 @@ li{
     font-weight: 500;
 }
 .wrapper{
-    border: 1px solid red;
-    width: 1512px;;
+    border: 1px solid rgb(255, 255, 255);
+    width: 1512px;
+    height: 1146px;
     margin: 0 auto;
  } 
 .wiret-block{
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     width: 1100px;
     height: 700px;
     margin: 0 auto;
 }
 .landing{
     float:left;
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 256px;
     width: 611px;
 
@@ -108,7 +109,7 @@ li{
     padding-bottom: 20px;
 }
 .Authors{
-    border: 2px solid blue;
+    border: 2px solid rgb(255, 255, 255);
     width: 94px;
     height: 39px;
     background-color: blue;
@@ -133,20 +134,20 @@ li{
 }
 .iphone{
     float: right;
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 100px;
     position: relative;
     left: 50px;
 }
 .Author{
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     width: 1190px;
     position: absolute;
     left: 312px;
     top: 796px;
 }
 .promo{
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     width: 611px;
     margin: 0 auto;
     text-align: center;
@@ -158,9 +159,9 @@ li{
 }
 .info{
     float: left;
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     width: 645px;
-    height: 175px; 
+    /* height: 175px;  */
     position: relative;
     left: 202px;
     bottom: 10px;
@@ -168,9 +169,9 @@ li{
 }
 .graphic{
     float: right;
-    border: 1px solid blue;
-   position: relative;
-   bottom: 22px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    bottom: 22px;
 }
 .rectangle{
     position: absolute;
@@ -222,7 +223,7 @@ li{
     margin-bottom: 2px;
 }
 .icon{
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 255, 255);
     width: 120px;
     position: relative;
     left: 202px;
@@ -233,5 +234,359 @@ li{
 .students{
     border: 1px solid blue;
     width:  1509px;
-    margin: auto;
+    height: 702px;
+    margin: 0 auto;
+    background-color:  #0062FF;
 }
+.title-text{
+    border: 1px solid #0062FF;
+    width: 611px;
+    margin: 0 auto;
+    margin-top: 71px;
+    color: #fff;
+    text-align: center;
+}
+.title-text h2{
+    font-weight: 600;
+    font-size: 36px;
+}
+.title-for{
+    border: 1px solid #0062FF;
+    width: 1262px;
+    height: 147px;
+    margin: 0 auto;
+    margin-top: 64px;
+    color: #fff;
+}
+.title-inform{
+    border: 1px solid#0062FF;
+    float: right;
+    width: 607px;
+    height: 136px;
+    display: inline;
+}
+.title-inform-text{
+    border: 1px solid #0062FF;
+    width: 451px;
+    float: right;
+    margin-top: 7px;
+}
+.title-inform-text h3{
+    font-weight: 600;
+    font-size: 27px;
+}
+.title-freelaners{
+    border: 1px solid #0062FF;
+    float: left;
+    width: 607px;
+    height: 136px;
+    display: inline;
+}
+.title-freelaners-text{
+    border: 1px solid #0062FF;
+    width: 451px;
+    float: right;
+    margin-top: 7px;
+}
+.title-freelaners-text h3{
+    font-weight: 600;
+    font-size: 27px;
+    color: #fff;
+}
+.title-freelaners-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.agency{
+    border: 1px solid#0062FF;
+    width: 1262px;
+    height: 147px;
+    margin: 0 auto;
+    margin-top: 64px;
+    color: #fff;
+    margin-top: 25px;
+}
+.agency h3{
+    font-weight: 600;
+    font-size: 27px;
+}
+.for-gency{
+    float: left;
+    width: 607px;
+    height: 136px;
+}
+.marketers{
+    float: right;
+    width: 607px;
+    height: 136px;
+}
+.marketers-png{
+    border: 1px solid #0062FF;
+    width: 451px;
+    height: 120px;
+    float: right;
+    margin-top: 12px;
+}
+.fora-gency-rst{
+    border: 1px solid #0062FF;
+    width: 451px;
+    height: 120px;
+    float: right;
+    margin-top: 12px;
+}
+.want{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 99px;
+    height: 39px;
+    position: relative;
+    left: 711px;
+    top: 50px;
+    background-color: #fff;
+    color: #2203E4;
+    font-weight: 400;
+    font-size: 16px;
+}
+.want:hover{
+    text-decoration: underline 2px;
+}
+.demo{
+    border: 1px solid rgb(255, 255, 255);
+    width:  1509px;
+    height: 625px;
+    margin: 0 auto;
+}
+.checky{
+    border: 1px solid rgb(255, 255, 255);
+    width: 611px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 63px;
+}
+.checky h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+.checky p{
+    color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+}
+.watch-video{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1103px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+.configure-sandbox{
+    border: 1px solid rgb(255, 255, 255);
+    width: 611px;
+    height: 273px;
+    float: left;
+    text-align: center;
+}
+.configure-sandbox h4{
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.configure-sandbox p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+.sandbox{
+    border: 1px solid rgb(255, 255, 255);
+    width: 444px;
+    height: 296px;
+    float: right;
+    background: url(img/Rectangle\(5\).png);
+}
+.Vector{
+    position: relative;
+    top: 120px;
+    left: 197px;
+}
+.opinions{
+    border: 1px solid  #FFBE0B;
+    height: 500px;
+    width: 1509px;
+    margin: 0 auto;
+    background-color: #FFBE0B;
+}
+.opinions-title{
+    border: 1px solid  #FFBE0B;
+    width: 611px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 67px;
+}
+.opinions-title h2{
+    font-weight: 600;
+    font-size: 36px; 
+}
+.opinions-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+
+.opinions-coe{
+    border: 1px solid #F3F3F3;
+    border-radius: 16px;
+    width: 702px;
+    height: 230px; 
+    margin: 0 auto;
+    margin-top: 42px;
+    background-color:  #F3F3F3;
+}
+ .opinions-coe::before{
+    content: url(../Css/img/Frame\ 39.png);
+    position: relative;
+    right: 405px;
+    bottom: 20px;
+}
+.opinions-coe::after{
+    content: url(../Css/img/Frame\ 40.png);
+    position: relative;
+    bottom: 410px;
+    left: 717px;
+}
+.sms{
+   position: relative;
+   bottom: 115px;
+   right: 391px;
+} 
+.jones{
+    border: 1px solid #F3F3F3 ;
+    width: 611px;
+    height: 111px; 
+    position: relative;
+    left: 80px;
+    bottom: 221px;
+}
+.david{
+    border: 1px solid #F3F3F3;
+    width: 333px;
+    height: 88px;
+   
+}
+.star{
+    position: relative;
+    left:  181px;
+    bottom: 53px;
+}
+.david h3{
+    font-weight: 600;
+    font-size: 27px;
+}
+.david h4{
+    font-weight: 500;
+    font-size: 21px;
+}
+.david p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+.infor{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1509px;
+    height: 936px;
+    margin: 0 auto;
+}
+.product{
+    border: 1px solid rgb(255, 255, 255);
+    width: 951.05px;
+    height: 745.38px;
+    margin: 0 auto;
+    margin-top: 88.5px;
+}
+.zoom{
+    border: 1px solid rgb(255, 255, 255);
+    width: 611px;
+    margin: 0 auto;
+    text-align: center;
+}
+.zoom h2{
+    font-weight: 600;
+    font-size: 36px;
+}
+.zoom p{
+    font-weight: 400;
+    font-size: 16px;
+    color:  #575757;
+}
+.float-produ{
+    border: 1px solid rgb(255, 255, 255);
+    width: 951.05px;
+    height: 321.38px;
+    margin-top: 74px;
+}
+.painting{
+    float: left;
+    width: 327.05px;
+    height: 321.38px;
+}
+.enterprise{
+    border: 1px solid rgb(255, 255, 255);
+    width: 611px;
+    height: 175px;
+    float: right;
+    margin-top: 73px;
+}
+.enterprise h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #2203E4;
+    margin: 7px 0;
+}
+.fox{
+    border: 1px solid blue;
+    color:#fff;
+    width: 122px;
+    height: 39px;
+    background: #0062FF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 7px;
+}
+.frame{
+    border: 1px solid rgb(255, 255, 255);
+    width: 508px;
+    height: 183px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 58px;
+}
+.frame h3{
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.blank{
+    width: 508px;
+    height: 70px;
+    background: rgba(58, 134, 255, 0.2);
+    border-radius: 12px;
+    color: #2203E4;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    padding: 20px;
+}
+.discount{
+    width: 508px;
+    height: 39px;
+    background: #0062FF;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+
+
