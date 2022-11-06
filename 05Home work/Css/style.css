@@ -337,13 +337,15 @@ li{
     border: 1px solid rgb(255, 255, 255);
     width: 99px;
     height: 39px;
-    position: relative;
+    /* position: relative;
     left: 900px;
-    top: 50px;
+    top: 50px; */
     background-color: #fff;
     color: #2203E4;
     font-weight: 400;
     font-size: 16px;
+    margin: 40px auto;
+    display: block;
 }
 .want:hover{
     text-decoration: underline 2px;
@@ -534,6 +536,11 @@ li{
     height: 175px;
     float: right;
     margin-top: 73px;
+}
+.reviews{
+    position: relative;
+    left: 169px;
+    bottom: 34px;
 }
 .enterprise h2{
     font-weight: 600;

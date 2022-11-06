@@ -1,37 +1,153 @@
 *{
     box-sizing: border-box;
+    font-family: 'Avenir';
+}
+@font-face {
+  font-family: Avenir;
+  src: url(../FONTS/avenir_ff/AvenirLTStd-Roman.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../FONTS/avenir_ff/AvenirLTStd-Black.otf);
+  font-weight: 800;
 }
 .vokation{
     border: 2px solid blue;
-    width: 100%;
+    width: 1440px;
     height: 1024px;
     margin: 96px auto;
+    background-color: #F8FAF8;
 } 
-.head{
-  border: 1px solid blue;
-  width: 95%;
-  display: inline-block;
-}
 .logo{
   border: 1px solid blue;
-  height: 25px;
-  left: 120px;
+  height: 29px;
   float: left;
-  margin: 3%;
+  width: 7%;
+  margin-top: 46px;
+  margin-left: 120px;
+  color:#BC436A;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
-.menu li,ul{
-   border: 1px solid blue;
-   display: inline;
-   float: right;
-   flex: 40%;
+.menu{
+border: 2px solid blue;
+width: 45%; 
+ float: right;
+display: flex;
+margin-top: 41px;
+margin-right: 2%;
+}
+.links{
+  margin:  8px  20px;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  color: #776677;
+}
+.link{
+  margin:  8px  19px;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  color: #BC436A;
+
+}
+
+.button{
+  border: 1px solid blue;
+  width: 102px;
+  height: 38px;
+  background-color:  #386E41;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10%;
+  /* position: relative;
+  left: 184px; */
+  
+}
+.button:hover{
+  text-decoration: underline 2px blue;
 }
 .photo{
-    border: 1px solid blue;
-    width: 40%;
-    height: 85%;
-    float: right;
-    border-radius: 50%;
-    overflow: hidden;
-    
+  border: 1px solid blue;
+  width: 812px;
+  height: 812px;
+  background-image: url(../css/img/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  left:  6.5%;
+  top:  35px;
+  border: none;
+}
+.text{
+  border: 1px solid blue;
+  width: 526px;
+  font-size: 36px;
+  font-weight: 800; 
+  position: relative;
+  left: 120px;
+  top: 150px;
+  /* display: flex; */
+  text-align: left;
+}
 
+.colortext{
+  color: #BC436A;
+}
+.color{
+  color: #BC436A;
+}
+.lorem{
+  border: 1px solid blue;
+  font-weight: 400;
+  font-size: 18px;
+   color: #7A7A7A;
+}
+.lorem:hover{
+  text-decoration: underline blueviolet 2px;
+}
+.decoration{
+ position: relative;
+ top: 25%;
+}
+.green-menu{
+  position: absolute;
+  width: 63%;
+  height: 100px;
+  left: 18%;
+  top: 116%;
+  background-color: #386E41;
+  border-radius: 12px;
+}
+.country{
+  margin: 3.1% 10% 0% 3%;
+  width: 253px;
+  height: 33px;
+  background-color: #386E41;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-bottom: #fff 2px;
+}
+.country.icon{
+  background: url(../css/img/Vector\(17\).png) no-repeat center left;
+  padding-left: 30px;
+}
+
+.city{
+  margin: 0% 10% 0% 0%;
+  width: 253px;
+  height: 33px;
+}
+.place{
+  margin: 0% 0% 0% 0%;
+  width: 253px;
+  height: 33px;
 }
