@@ -14,14 +14,12 @@
   font-weight: 800;
 }
 .vokation{
-    border: 2px solid blue;
-    width: 1440px;
+    width: 78%;
     height: 1024px;
     margin: 96px auto;
     background-color: #F8FAF8;
 } 
 .logo{
-  border: 1px solid blue;
   height: 29px;
   float: left;
   width: 7%;
@@ -33,7 +31,6 @@
   text-align: center;
 }
 .menu{
-border: 2px solid blue;
 width: 45%; 
  float: right;
 display: flex;
@@ -53,11 +50,15 @@ margin-right: 2%;
   font-size: 16px;
   text-decoration: none;
   color: #BC436A;
-
+}
+.links:hover{
+  text-decoration: underline blue 2px;
+}
+.link:hover{
+  text-decoration: underline blue 2px;
 }
 
 .button{
-  border: 1px solid blue;
   width: 102px;
   height: 38px;
   background-color:  #386E41;
@@ -66,15 +67,11 @@ margin-right: 2%;
   font-weight: 400;
   font-size: 16px;
   margin-left: 10%;
-  /* position: relative;
-  left: 184px; */
-  
 }
 .button:hover{
   text-decoration: underline 2px blue;
 }
 .photo{
-  border: 1px solid blue;
   width: 812px;
   height: 812px;
   background-image: url(../css/img/Rectangle\ 4.png);
@@ -82,12 +79,11 @@ margin-right: 2%;
   border-radius: 50%;
   float: right;
   position: relative;
-  left:  6.5%;
-  top:  35px;
+  left:  6.3%;
+  top:  40px;
   border: none;
 }
 .text{
-  border: 1px solid blue;
   width: 526px;
   font-size: 36px;
   font-weight: 800; 
@@ -97,7 +93,6 @@ margin-right: 2%;
   /* display: flex; */
   text-align: left;
 }
-
 .colortext{
   color: #BC436A;
 }
@@ -105,7 +100,6 @@ margin-right: 2%;
   color: #BC436A;
 }
 .lorem{
-  border: 1px solid blue;
   font-weight: 400;
   font-size: 18px;
    color: #7A7A7A;
@@ -118,36 +112,124 @@ margin-right: 2%;
  top: 25%;
 }
 .green-menu{
-  position: absolute;
-  width: 63%;
-  height: 100px;
-  left: 18%;
-  top: 116%;
-  background-color: #386E41;
-  border-radius: 12px;
-}
-.country{
-  margin: 3.1% 10% 0% 3%;
-  width: 253px;
-  height: 33px;
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 10%;
+  margin: 0% 11%;
+  bottom: 12%;
   background-color: #386E41;
   color: #fff;
-  font-size: 20px;
+  border-color: #fff;
   border: none;
-  border-bottom: #fff 2px;
+  border-bottom: 1px solid;
+  justify-content: space-around;
+  border-radius: 12px;
 }
-.country.icon{
-  background: url(../css/img/Vector\(17\).png) no-repeat center left;
-  padding-left: 30px;
+.green-contry{
+  display: flex;
+  position: relative;
+  width: 21%;
+  height: 35%;
+  border-bottom: 1px solid;
+}
+.green-contry::before{
+  content: url(../css/img/Vector\(17\).png);
+  position: absolute;
+  left: 216px;
+  bottom: 13px;
+}
+.green-city{
+  position: relative;
+  width: 21%;
+  height: 35%;
+  display: flex;
+  border-bottom: 1px solid
+}
+.green-city::before{
+  content: url(../css/img/Vector\(17\).png);
+  position: absolute;
+  left: 216px;
+  bottom: 13px;
+}
+.green-place{
+  display: flex;
+  position: relative;
+  width: 21%;
+  height: 35%;
+  border-bottom: 1px solid;
+}
+.green-place::before{
+  content: url(../css/img/Vector\(17\).png);
+  position: absolute;
+  left: 216px;
+  bottom: 13px;
+}
+.green-place,
+.green-city,
+.green-contry{
+  margin-top: 3%;
+  font-weight: 400;
+}
+.place,
+.city,
+.country{
+  font-size: 18px;
+  background-color: #386E41;
+  border: none;
+  color:  #ffffff;
+}
+.search{
+  border: 1px solid #BC436A;
+  width: 145px;
+  height: 41px;
+  background-color: #BC436A;
+  display: flex;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 8px 21px;
+  margin-top: 3%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px
+}
+.search:hover{
+  text-decoration: underline  2px blue;
+  box-shadow: 1px 7px 80px
+}
+.will{
+  display: flex;
+  position: relative;
+  top: 29%;
+  left: 10%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #767676;
+}
+.will::after{
+  content: url(../css/img/Vector\(18\).png);
+  margin: 20px;
+}
+.see{
+  width: 136px;
+  height: 57px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 73px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #767676;
+  padding-left: 0px;
+}
+.see a{
+  padding-left: 10px;
+}
+.see a:hover{
+  text-decoration: underline blue 2px ;
+}
+.vector{
+  position: relative;
+  left: 17px;
+  top: 10px;
 }
 
-.city{
-  margin: 0% 10% 0% 0%;
-  width: 253px;
-  height: 33px;
-}
-.place{
-  margin: 0% 0% 0% 0%;
-  width: 253px;
-  height: 33px;
-}
