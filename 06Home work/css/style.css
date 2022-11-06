@@ -84,7 +84,8 @@ margin-right: 2%;
   border: none;
 }
 .text{
-  width: 526px;
+  border: 1px solid rgb(254, 254, 255);
+  width: 32%;
   font-size: 36px;
   font-weight: 800; 
   position: relative;
