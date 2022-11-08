@@ -1,236 +1,213 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Avenir';
+  box-sizing: border-box;
 }
-@font-face {
-  font-family: Avenir;
-  src: url(../FONTS/avenir_ff/AvenirLTStd-Roman.otf);
-  font-weight: 400;
+body,html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400; 
+  height: 1024px;
 }
-
-@font-face {
-  font-family: Avenir;
-  src: url(../FONTS/avenir_ff/AvenirLTStd-Black.otf);
-  font-weight: 800;
+.wrapper{
+  width: 75%;
+  margin: 0 auto;
 }
-.vokation{
-    width: 78%;
-    height: 1024px;
-    margin: 96px auto;
-    background-color: #F8FAF8;
-} 
+header{
+  padding: 0px;
+  background-color: #fff;
+}
+.flex{
+  padding-top: 3%;
+  display: flex;
+  align-items: center
+}
 .logo{
-  height: 29px;
-  float: left;
-  width: 7%;
-  margin-top: 46px;
-  margin-left: 120px;
-  color:#BC436A;
+  width: 58%;
+  font-size: 18px;
   font-weight: 700;
-  font-size: 20px;
-  text-align: center;
+  color: #BC436A;
 }
 .menu{
-width: 45%; 
- float: right;
-display: flex;
-margin-top: 41px;
-margin-right: 2%;
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
 }
-.links{
-  margin:  8px  20px;
-  font-weight: 800;
-  font-size: 16px;
+.menu a{
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
   color: #776677;
 }
-.link{
-  margin:  8px  19px;
+.home a{
+  font-size: 16px;
   font-weight: 800;
-  font-size: 16px;
-  text-decoration: none;
   color: #BC436A;
 }
-.links:hover{
-  text-decoration: underline blue 2px;
-}
-.link:hover{
-  text-decoration: underline blue 2px;
-}
-
-.button{
-  width: 102px;
-  height: 38px;
-  background-color:  #386E41;
+header button{
+  width: 9%;
+  padding: 8px;
+  margin-left: 25px;
+  background-color: #386E41;
+  text-align: center;
+  color: white;
+  border: 2px solid #386E41;
   border-radius: 4px;
-  color: #fff;
-  font-weight: 400;
   font-size: 16px;
-  margin-left: 10%;
 }
-.button:hover{
-  text-decoration: underline 2px blue;
+.green{
+  width: 100%;
 }
-.photo{
-  width: 812px;
-  height: 812px;
-  background-image: url(../css/img/Rectangle\ 4.png);
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  float: right;
-  position: relative;
-  left:  6.3%;
-  top:  40px;
-  border: none;
+.green:hover{
+  text-decoration: underline black 2px;
 }
-.text{
-  border: 1px solid rgb(254, 254, 255);
-  width: 32%;
+.vacation{
+  width: 43%;
+  margin: 0px;
+}
+section h3{
   font-size: 36px;
-  font-weight: 800; 
-  position: relative;
-  left: 120px;
-  top: 150px;
-  /* display: flex; */
-  text-align: left;
+  font-weight: 800;
+  color: #333333;
+  padding: 0px;
+  padding-top: 142px;
+  margin-bottom: 23px;
 }
-.colortext{
+.red{
   color: #BC436A;
 }
-.color{
-  color: #BC436A;
-}
-.lorem{
+section p{
+  font-size: 18px;
   font-weight: 400;
-  font-size: 18px;
-   color: #7A7A7A;
-}
-.lorem:hover{
-  text-decoration: underline blueviolet 2px;
-}
-.decoration{
- position: relative;
- top: 25%;
-}
-.green-menu{
-  display: flex;
-  position: relative;
-  width: 80%;
-  height: 10%;
-  margin: 0% 11%;
-  bottom: 12%;
-  background-color: #386E41;
-  color: #fff;
-  border-color: #fff;
-  border: none;
-  border-bottom: 1px solid;
-  justify-content: space-around;
-  border-radius: 12px;
-}
-.green-contry{
-  display: flex;
-  position: relative;
-  width: 21%;
-  height: 35%;
-  border-bottom: 1px solid;
-}
-.green-contry::before{
-  content: url(../css/img/Vector\(17\).png);
-  position: absolute;
-  left: 216px;
-  bottom: 13px;
-}
-.green-city{
-  position: relative;
-  width: 21%;
-  height: 35%;
-  display: flex;
-  border-bottom: 1px solid
-}
-.green-city::before{
-  content: url(../css/img/Vector\(17\).png);
-  position: absolute;
-  left: 216px;
-  bottom: 13px;
-}
-.green-place{
-  display: flex;
-  position: relative;
-  width: 21%;
-  height: 35%;
-  border-bottom: 1px solid;
-}
-.green-place::before{
-  content: url(../css/img/Vector\(17\).png);
-  position: absolute;
-  left: 216px;
-  bottom: 13px;
-}
-.green-place,
-.green-city,
-.green-contry{
-  margin-top: 3%;
-  font-weight: 400;
-}
-.place,
-.city,
-.country{
-  font-size: 18px;
-  background-color: #386E41;
-  border: none;
-  color:  #ffffff;
-}
-.search{
-  border: 1px solid #BC436A;
-  width: 145px;
-  height: 41px;
-  background-color: #BC436A;
-  display: flex;
-  font-size: 18px;
-  color: #ffffff;
-  padding: 8px 21px;
-  margin-top: 3%;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px
-}
-.search:hover{
-  text-decoration: underline  2px blue;
-  box-shadow: 1px 7px 80px
+  color: #7A7A7A;
+  padding: 0px;
+  margin: 0px;
 }
 .will{
+  position: relative;
+  top: 112px;
+}
+.will a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #767676;
+}
+.will::before{
+  content: url(../css/img/Vector\(18\).png);
+  position: relative;
+  top: 2px;
+  left: 224px;
+}
+.win{
+  height: 100px;
+  background-color: #386E41;
+  color: white;
+  padding: 0px 18px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
   position: relative;
-  top: 29%;
-  left: 10%;
-  font-weight: 400;
-  font-size: 18px;
-  color: #767676;
+  top: 154px;
 }
-.will::after{
-  content: url(../css/img/Vector\(18\).png);
-  margin: 20px;
+.country input{
+  width: 253px;
+  padding: 10px 0px;
+  background-color: #386E41;
+  border: 2px solid #386E41;
+  border-bottom: 2px solid white;
 }
-.see{
-  width: 136px;
-  height: 57px;
-  margin: 0 auto;
+.city input{
+  width: 253px;
+  padding: 10px 0px;
+  background-color: #386E41;
+  border: 2px solid #386E41;
+  border-bottom: 2px solid white;
+}
+.place input{
+  width: 253px;
+  padding: 10px 0px;
+  background-color: #386E41;
+  border: 2px solid #386E41;
+  border-bottom: 2px solid white;
+}
+.country::after{
+  content: url(../css/img/Vector\(21\).png);
   position: relative;
-  bottom: 73px;
+  left: -30px;
+}
+.country-input::placeholder{
+  font-size: 18px;
+  font-weight: 400;
+  color: #f2f3f4;
+  background-color: #386E41;
+}
+.city::after{
+  content: url(../css/img/Vector\(21\).png);
+  position: relative;
+  left: -30px;
+}
+.city-input::placeholder{
+  color: #f2f3f4; 
+  background-color: #386E41;
+  font-size: 18px;
+  font-weight: 400;
+  border: 10px solid #386E41;
+}
+.place::after{
+  content: url(../css/img/Vector\(21\).png);
+  position: relative;
+  left: -30px;
+}
+.place-input::placeholder{
+  color: #f2f3f4;
+  background-color: #386E41;
+  font-size: 18px;
+  font-weight: 400;
+  border: 10px solid #386E41;
+}
+section button{
+  width: 9%;
+  padding: 8px 21px;
+  margin-right: 0px;
+  background-color: #BC436A;
   text-align: center;
-  font-weight: 400;
+  color: white;
+  border: 2px solid #BC436A;
+  border-radius: 4px;
   font-size: 18px;
+}
+section button:hover{
+  box-shadow: 0px 0px 15px;
+  text-decoration: underline black 2px;
+}
+.search{
+  width: 100%;
+}
+.shap{
+ position: relative;
+ right: 140px;
+ top: 50px;
+}
+body{
+  background-image: url(../css/img/man.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: right 130px top 115px;
+  z-index: 0;
+}
+.destinations{
+  margin-top: 210px;
+  text-align: center;
+}
+.destinations a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
   color: #767676;
-  padding-left: 0px;
 }
-.see a{
-  padding-left: 10px;
-}
-.see a:hover{
-  text-decoration: underline blue 2px ;
-}
-.vector{
+.destinations::before{
+  content: url(../css/img/chevrons-down.png);
   position: relative;
-  left: 17px;
-  top: 10px;
-}
+  top: 50px;
+  left: 87px;
+} 
 
