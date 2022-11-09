@@ -82,7 +82,7 @@ section p{
 }
 .will{
   position: relative;
-  top: 112px;
+  top: 239px;
 }
 .will a{
   text-decoration: none;
@@ -106,7 +106,7 @@ section p{
   align-items: center;
   display: flex;
   position: relative;
-  top: 154px;
+  top: 274px;
 }
 .country input{
   width: 253px;
@@ -183,19 +183,18 @@ section button:hover{
   width: 100%;
 }
 .shap{
- position: relative;
- right: 140px;
- top: 50px;
+ position:absolute;
+ left: 0px;
+ top: 70%;
 }
 body{
   background-image: url(../css/img/man.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position: right 130px top 115px;
-  z-index: 0;
+ 
 }
 .destinations{
-  margin-top: 210px;
+  margin-top: 326px;
   text-align: center;
 }
 .destinations a{
